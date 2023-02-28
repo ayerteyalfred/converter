@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+    <form>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" />
+      <br /><br />
+      <label for="from">From:</label>
+      <select id="from" name="from">
+        <option value="USD">US Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">British Pound</option>
+        <option value="GHS">Ghana Cedis</option>
+      </select>
+      <br /><br />
+      <label for="to">To:</label>
+      <select id="to" name="to">
+        <option value="USD">US Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">British Pound</option>
+        <option value="GHS">Ghana Cedis</option>
+      </select>
+      <br /><br />
+      <input id="convert" type="button" value="Convert" />
+      <br /><br />
+      <label for="result">Result:</label>
+      <input type="text" id="result" name="result" readonly />
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
